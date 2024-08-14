@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arsenal+SC:ital,wght@0,400;0,700;1,400;1,700&family=Calistoga&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Oswald:wght@200..700&display=swap');
+
+
+.kq {
+  
+    margin: 0% 0% 0% ;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(28, 28, 28);
+    display: flex;
+    min-height: 100vh;
+    /* backdrop-filter: blur(10px);
+    background: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("D:\studies\sem 5\project making\proj\src\pages\assert\Screenshot (3).png") no-repeat center/cover; */
+}
+.op{
+    align-items: center;
+    display: flex;
+    min-height: 100vh;
+}
+.opp{
+    display: flex;
+	background-color: #f6f7f9;
+    width: 450px;
+    border-radius: 15px;
+	
+}
+.im{
+	width: 45%;
+	height: 45%;
+	border-radius: 10px;
+}
+
+.date {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.fo {
+    width: 45%;
+    font-family: 'Times New Roman', Times, serif;
+    color: #000000;
+    font-size: 15px;
+}
+
+.da2 {
+    width: 100%;
+    height: 35px;
+    background: #f0f0f0;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    font-family:Source Code Pro;
+}
+.sig{
+    display: flex;
+    justify-content: space-between;
+}
+.signu {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+
+.hf {
+    margin-bottom: 30px;
+    color: #000000;
+    font-size: 2em;
+    text-align: center;
+    font-weight: 900;
+    font-family:Source Code Pro;
+}
+
+.nput {
+    width: 100%;
+    height: 35px;
+    background: #f0f0f0;
+    margin-bottom: 15px;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    font-family:Source Code Pro;
+}
+
+.nput1 {
+    /* font-size: 10px; */
+    width: 45%;
+    height: 40px;
+    background: #f0f0f0;
+    margin-bottom: 15px;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    font-family:Source Code Pro;
+}
+
+.utton {
+    width: 100%;
+    height: 45px;
+    color: #fff;
+    background-color: #d2691e ;
+    font-size: 1em;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    font-family:Source Code Pro;
+    transition: background 0.3s ease;
+}
+
+.utton:hover {
+    background: hsl(0, 0%, 100%);
+    color: #d2691e;
+}
+
+form {
+    padding: 20px;
+}
